@@ -34,7 +34,7 @@ export const metadata = constructMetadata({
     description: "Check your business analytics.",
   });
 
-export function AnalyticsPage() {
+export default async function AnalyticsPage() {
   return (
     <>
     <DashboardHeader
