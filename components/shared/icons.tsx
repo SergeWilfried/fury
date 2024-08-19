@@ -144,6 +144,7 @@ export const Icons = {
       />
     </svg>
   ),
+  layers: Layers,
   user: User,
   warning: AlertTriangle,
 };
