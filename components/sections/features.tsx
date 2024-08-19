@@ -13,8 +13,8 @@ export default function Features() {
         <MaxWidthWrapper>
           <HeaderSection
             label="Features"
-            title="Fury's Powerful Capabilities"
-            subtitle="Discover how Fury can revolutionize your transaction monitoring and fraud detection processes."
+            title="Metrixx's Powerful Capabilities"
+            subtitle="Discover how Metrixx can revolutionize your transaction monitoring and fraud detection processes."
           />
 
           <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
