@@ -16,13 +16,7 @@ export const infos: InfoLdg[] = [
         title: "Flexible Rule Processing",
         description: "Implement simple or complex rules to evaluate transactions and participant behavior for suspicious activities.",
         icon: "cog",
-      },
-      {
-        title: "Typology Library",
-        description:
-          "Access to over 280 fraud and money laundering typologies, with 30 pre-fabricated ones included.",
-        icon: "library",
-      },
+      }
     ],
   },
   {
@@ -103,48 +97,41 @@ export const testimonials: TestimonialType[] = [
     job: "Chief Risk Officer, Global Bank",
     image: "https://randomuser.me/api/portraits/women/1.jpg",
     review:
-      "Tazama has revolutionized our fraud detection capabilities. The real-time monitoring and flexible rule processing have significantly reduced our false positives while catching more genuine fraud attempts. It's an indispensable tool for our risk management strategy.",
+      "FraudShield has revolutionized our fraud detection capabilities. The real-time monitoring and flexible rule processing have significantly reduced our false positives while catching more genuine fraud attempts. It's an indispensable tool for our risk management strategy.",
   },
   {
     name: "Michael Chen",
     job: "Head of Compliance, FinTech Startup",
     image: "https://randomuser.me/api/portraits/men/2.jpg",
     review:
-      "As a growing fintech, we needed a robust yet scalable solution for transaction monitoring. Tazama fit the bill perfectly. Its ISO20022 compliance and extensive typology library have made our AML efforts much more effective. The open-source nature also allows us to customize it to our specific needs.",
+      "As a growing fintech, we needed a robust yet scalable solution for transaction monitoring. FraudShield fit the bill perfectly. Its ISO20022 compliance and extensive typology library have made our AML efforts much more effective. The open-source nature also allows us to customize it to our specific needs.",
   },
   {
     name: "Emily Rodriguez",
     job: "Senior Fraud Analyst, Payment Processor",
     image: "https://randomuser.me/api/portraits/women/3.jpg",
     review:
-      "The depth of Tazama's typology library is impressive. With over 280 fraud and money laundering scenarios at our fingertips, we've been able to stay ahead of emerging threats. The pre-fabricated typologies were a great starting point for our team.",
+      "The depth of FraudShield's typology library is impressive. With over 280 fraud and money laundering scenarios at our fingertips, we've been able to stay ahead of emerging threats. The pre-fabricated typologies were a great starting point for our team.",
   },
   {
     name: "David Okonkwo",
     job: "IT Director, African Mobile Money Operator",
     image: "https://randomuser.me/api/portraits/men/4.jpg",
     review:
-      "Implementing Tazama has been a game-changer for our mobile money platform. The real-time API integration was smooth, and the system's ability to handle our high transaction volumes is remarkable. It's greatly enhanced our fraud prevention capabilities.",
+      "Implementing FraudShield has been a game-changer for our mobile money platform. The real-time API integration was smooth, and the system's ability to handle our high transaction volumes is remarkable. It's greatly enhanced our fraud prevention capabilities.",
   },
   {
     name: "Lisa Tanaka",
     job: "AML Compliance Manager, Insurance Company",
     image: "https://randomuser.me/api/portraits/women/5.jpg",
     review:
-      "While Tazama is often associated with banking, it's been invaluable for our insurance operations. The flexibility to create custom rules has allowed us to adapt the system to our specific fraud and money laundering risks in the insurance sector.",
+      "While FraudShield is often associated with banking, it's been invaluable for our insurance operations. The flexibility to create custom rules has allowed us to adapt the system to our specific fraud and money laundering risks in the insurance sector.",
   },
   {
     name: "Robert Müller",
     job: "CTO, European Payment Switch",
     image: "https://randomuser.me/api/portraits/men/6.jpg",
     review:
-      "As a national payment switch, we deal with an enormous volume of transactions. Tazama's scalability and performance have been exceptional. The alert management system has streamlined our investigation process, making our team much more efficient.",
-  },
-  {
-    name: "Aisha Patel",
-    job: "Financial Crime Specialist, Consulting Firm",
-    image: "https://randomuser.me/api/portraits/women/7.jpg",
-    review:
-      "I've implemented Tazama for several clients across different industries. Its versatility is impressive - from traditional banking to supply chain finance. The open-source community around it is also a great resource for staying updated on the latest financial crime trends.",
-  },
+      "As a national payment switch, we deal with an enormous volume of transactions. FraudShield's scalability and performance have been exceptional. The alert management system has streamlined our investigation process, making our team much more efficient.",
+  }
 ];
