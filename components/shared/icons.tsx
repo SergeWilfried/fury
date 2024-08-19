@@ -8,10 +8,15 @@ import {
   ChevronRight,
   Copy,
   CreditCard,
+  Bell,
+  Bolt,
+  Library,
   File,
   FileText,
   HelpCircle,
   Home,
+  Layers,
+  GithubIcon,
   Image,
   Laptop,
   LayoutPanelLeft,
@@ -29,6 +34,7 @@ import {
   Settings,
   SunMedium,
   Trash,
+  ShieldCheckIcon,
   User,
   X,
 } from "lucide-react";
@@ -45,7 +51,12 @@ export const Icons = {
   chevronRight: ChevronRight,
   check: Check,
   close: X,
+  bell: Bell,
+  github: GithubIcon,
+  bolt: Bolt,
+  library: Library,
   copy: Copy,
+  cog: Settings,
   dashboard: LayoutPanelLeft,
   ellipsis: MoreVertical,
   gitHub: ({ ...props }: LucideProps) => (
@@ -113,6 +124,7 @@ export const Icons = {
   search: Search,
   settings: Settings,
   spinner: Loader2,
+  shieldCheck: ShieldCheckIcon,
   sun: SunMedium,
   trash: Trash,
   twitter: ({ ...props }: LucideProps) => (
@@ -132,6 +144,7 @@ export const Icons = {
       />
     </svg>
   ),
+  layers: Layers,
   user: User,
   warning: AlertTriangle,
 };

@@ -2,51 +2,45 @@ import { FeatureLdg, InfoLdg, TestimonialType } from "types";
 
 export const infos: InfoLdg[] = [
   {
-    title: "Empower your projects",
+    title: "Real-Time Transaction Monitoring",
     description:
-      "Unlock the full potential of your projects with our open-source SaaS platform. Collaborate seamlessly, innovate effortlessly, and scale limitlessly.",
+      "Ingest and analyze transaction data in real-time through our Transaction Monitoring Service API.",
     image: "/_static/illustrations/work-from-home.jpg",
     list: [
       {
-        title: "Collaborative",
-        description: "Work together with your team members in real-time.",
-        icon: "laptop",
+        title: "ISO20022 Compliant",
+        description: "Designed to be ISO20022 compliant, with support for non-ISO20022 systems via Payment Platform Adapter.",
+        icon: "check",
       },
       {
-        title: "Innovative",
-        description: "Stay ahead of the curve with access constant updates.",
-        icon: "settings",
-      },
-      {
-        title: "Scalable",
-        description:
-          "Our platform offers the scalability needed to adapt to your needs.",
-        icon: "search",
-      },
+        title: "Flexible Rule Processing",
+        description: "Implement simple or complex rules to evaluate transactions and participant behavior for suspicious activities.",
+        icon: "cog",
+      }
     ],
   },
   {
-    title: "Seamless Integration",
+    title: "Multi-Industry Support",
     description:
-      "Integrate our open-source SaaS seamlessly into your existing workflows. Effortlessly connect with your favorite tools and services for a streamlined experience.",
+      "Applicable beyond payments - works for insurance, supply chain, ethics, and more.",
     image: "/_static/illustrations/work-from-home.jpg",
     list: [
       {
-        title: "Flexible",
+        title: "Alert Management",
         description:
-          "Customize your integrations to fit your unique requirements.",
-        icon: "laptop",
+          "Issue investigation alerts to external case management systems and block suspicious transactions.",
+        icon: "bell",
       },
       {
-        title: "Efficient",
-        description: "Streamline your processes and reducing manual effort.",
-        icon: "search",
+        title: "Real-Time Monitoring",
+        description: "Ingest and analyze transaction data in real-time through our Transaction Monitoring Service API.",
+        icon: "bolt",
       },
       {
-        title: "Reliable",
+        title: "Open-Source",
         description:
-          "Rely on our robust infrastructure and comprehensive documentation.",
-        icon: "settings",
+          "Open-source nature allows for customization and community-driven development.",
+        icon: "github",
       },
     ],
   },
@@ -54,97 +48,90 @@ export const infos: InfoLdg[] = [
 
 export const features: FeatureLdg[] = [
   {
-    title: "Feature 1",
+    title: "Real-Time Monitoring",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Ingest and analyze transaction data in real-time through our Transaction Monitoring Service API.",
     link: "/",
-    icon: "nextjs",
+    icon: "bolt",
   },
   {
-    title: "Feature 2",
+    title: "ISO20022 Compliant",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Designed to be ISO20022 compliant, with support for non-ISO20022 systems via Payment Platform Adapter.",
     link: "/",
-    icon: "google",
+    icon: "check",
   },
   {
-    title: "Feature 3",
+    title: "Flexible Rule Processing",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Implement simple or complex rules to evaluate transactions and participant behavior for suspicious activities.",
     link: "/",
-    icon: "gitHub",
+    icon: "cog",
   },
   {
-    title: "Feature 4",
+    title: "Typology Library",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Access to over 280 fraud and money laundering typologies, with 30 pre-fabricated ones included.",
     link: "/",
-    icon: "laptop",
+    icon: "library",
   },
   {
-    title: "Feature 5",
+    title: "Multi-Industry Support",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Applicable beyond payments - works for insurance, supply chain, ethics, and more.",
     link: "/",
-    icon: "user",
+    icon: "layers",
   },
   {
-    title: "Feature 6",
+    title: "Alert Management",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Issue investigation alerts to external case management systems and block suspicious transactions.",
     link: "/",
-    icon: "copy",
+    icon: "bell",
   },
 ];
 
 export const testimonials: TestimonialType[] = [
   {
-    name: "John Doe",
-    job: "Full Stack Developer",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    name: "Sarah Johnson",
+    job: "Chief Risk Officer, Global Bank",
+    image: "https://randomuser.me/api/portraits/women/1.jpg",
     review:
-      "The next-saas-stripe-starter repo has truly revolutionized my development workflow. With its comprehensive features and seamless integration with Stripe, I've been able to build and deploy projects faster than ever before. The documentation is clear and concise, making it easy to navigate through the setup process. I highly recommend next-saas-stripe-starter to any developer.",
+      "Metrixx has revolutionized our fraud detection capabilities. The real-time monitoring and flexible rule processing have significantly reduced our false positives while catching more genuine fraud attempts. It's an indispensable tool for our risk management strategy.",
   },
   {
-    name: "Alice Smith",
-    job: "UI/UX Designer",
-    image: "https://randomuser.me/api/portraits/women/2.jpg",
+    name: "Michael Chen",
+    job: "Head of Compliance, FinTech Startup",
+    image: "https://randomuser.me/api/portraits/men/2.jpg",
     review:
-      "Thanks to next-saas-stripe-starter, I've been able to create modern and attractive user interfaces in record time. The starter kit provides a solid foundation for building sleek and intuitive designs, allowing me to focus more on the creative aspects of my work.",
+      "As a growing fintech, we needed a robust yet scalable solution for transaction monitoring. Metrixx fit the bill perfectly. Its ISO20022 compliance and extensive typology library have made our AML efforts much more effective.",
   },
   {
-    name: "David Johnson",
-    job: "DevOps Engineer",
-    image: "https://randomuser.me/api/portraits/men/3.jpg",
+    name: "Emily Rodriguez",
+    job: "Senior Fraud Analyst, Payment Processor",
+    image: "https://randomuser.me/api/portraits/women/3.jpg",
     review:
-      "Thanks to next-saas-stripe-starter, I was able to streamline the entire process and get payments up and running in no time. ",
+      "The depth of Metrixx's typology library is impressive. With over 280 fraud and money laundering scenarios at our fingertips, we've been able to stay ahead of emerging threats. The pre-fabricated typologies were a great starting point for our team.",
   },
   {
-    name: "Michael Wilson",
-    job: "Project Manager",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "David Okonkwo",
+    job: "IT Director, African Mobile Money Operator",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
     review:
-      "I'm impressed by the quality of code and clear documentation of next-saas-stripe-starter. Kudos to the team!",
+      "Implementing Metrixx has been a game-changer for our mobile money platform. The real-time API integration was smooth, and the system's ability to handle our high transaction volumes is remarkable. It's greatly enhanced our fraud prevention capabilities.",
   },
   {
-    name: "Sophia Garcia",
-    job: "Data Analyst",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Lisa Tanaka",
+    job: "AML Compliance Manager, Insurance Company",
+    image: "https://randomuser.me/api/portraits/women/5.jpg",
     review:
-      "next-saas-stripe-starter provided me with the tools I needed to efficiently manage user data. Thank you so much!",
+      "While Metrixx is often associated with banking, it's been invaluable for our insurance operations. The flexibility to create custom rules has allowed us to adapt the system to our specific fraud and money laundering risks in the insurance sector.",
   },
   {
-    name: "Emily Brown",
-    job: "Marketing Manager",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Robert Müller",
+    job: "CTO, European Payment Switch",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
     review:
-      "next-saas-stripe-starter has been an invaluable asset in my role as a marketing manager. With its seamless integration with Stripe, I've been able to launch targeted marketing campaigns with built-in payment functionality, allowing us to monetize our products and services more effectively.",
-  },
-  {
-    name: "Jason Stan",
-    job: "Web Designer",
-    image: "https://randomuser.me/api/portraits/men/9.jpg",
-    review:
-      "Thanks to next-saas-stripe-starter, I've been able to create modern and attractive user interfaces in record time. The starter kit provides a solid foundation for building sleek and intuitive designs, allowing me to focus more on the creative aspects of my work.",
-  },
+      "As a national payment switch, we deal with an enormous volume of transactions. Metrixx's scalability and performance have been exceptional. The alert management system has streamlined our investigation process, making our team much more efficient.",
+  }
 ];
