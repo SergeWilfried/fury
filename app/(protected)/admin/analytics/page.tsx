@@ -138,7 +138,7 @@ export function AnalyticsPage() {
           </CardContent>
           <CardFooter className="flex-col items-start gap-1">
             <CardDescription>
-              Over the past 7 days, you've processed{" "}
+              Over the past 7 days, you&apos;ve processed{" "}
               <span className="font-medium text-foreground">8,305</span> verifications.
             </CardDescription>
             <CardDescription>
