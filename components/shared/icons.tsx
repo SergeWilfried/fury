@@ -29,6 +29,7 @@ import {
   Settings,
   SunMedium,
   Trash,
+  ShieldCheckIcon,
   User,
   X,
 } from "lucide-react";
@@ -113,6 +114,7 @@ export const Icons = {
   search: Search,
   settings: Settings,
   spinner: Loader2,
+  shieldCheck: ShieldCheckIcon,
   sun: SunMedium,
   trash: Trash,
   twitter: ({ ...props }: LucideProps) => (
