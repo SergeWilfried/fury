@@ -3,11 +3,13 @@ import {
   ArrowRight,
   ArrowUpRight,
   BookOpen,
+  BarChart,
   Check,
   ChevronLeft,
   ChevronRight,
   Copy,
   CreditCard,
+  DollarSign,
   File,
   FileText,
   HelpCircle,
@@ -30,6 +32,11 @@ import {
   SunMedium,
   Trash,
   User,
+  AlertTriangleIcon,
+  FolderOpenIcon,
+  FileTextIcon,
+  Shield,
+  FolderClosedIcon,
   X,
 } from "lucide-react";
 
@@ -37,8 +44,10 @@ export type Icon = LucideIcon;
 
 export const Icons = {
   add: Plus,
+  alertTriangle: AlertTriangleIcon,
   arrowRight: ArrowRight,
   arrowUpRight: ArrowUpRight,
+  barChart: BarChart,
   billing: CreditCard,
   bookOpen: BookOpen,
   chevronLeft: ChevronLeft,
@@ -47,7 +56,11 @@ export const Icons = {
   close: X,
   copy: Copy,
   dashboard: LayoutPanelLeft,
+  dollarSign: DollarSign,
   ellipsis: MoreVertical,
+  fileText: FileTextIcon,
+  folderClosed: FolderClosedIcon,
+  folderOpen: FolderOpenIcon,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"
@@ -112,6 +125,7 @@ export const Icons = {
   post: FileText,
   search: Search,
   settings: Settings,
+  shield: Shield,
   spinner: Loader2,
   sun: SunMedium,
   trash: Trash,
