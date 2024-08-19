@@ -238,7 +238,7 @@ export default function BentoGrid() {
                     Customizable Alerts
                   </h2>
                   <p className="text-muted-foreground">
-                    Tailor alert thresholds and notification systems to your organization's specific needs and risk profile.
+                    Tailor alert thresholds and notification systems to your organization&apos;s specific needs and risk profile.
                   </p>
                 </div>
               </div>
