@@ -5,6 +5,7 @@ import {
   BookOpen,
   BarChart,
   Check,
+  Brain,
   ChevronLeft,
   ChevronRight,
   Copy,
@@ -70,6 +71,7 @@ export const Icons = {
   dollarSign: DollarSign,
   ellipsis: MoreVertical,
   fileText: FileTextIcon,
+  brain: Brain,
   folderClosed: FolderClosedIcon,
   folderOpen: FolderOpenIcon,
   gitHub: ({ ...props }: LucideProps) => (
