@@ -76,7 +76,7 @@ export const features: FeatureLdg[] = [
   {
     title: "Machine Learning Integration",
     description:
-      "Leverage MindsDB's machine learning models to predict fraudulent activities with high accuracy.",
+      "Leverage AI to predict fraudulent activities with high accuracy.",
     link: "/",
     icon: "brain",
   },
@@ -109,41 +109,42 @@ export const testimonials: TestimonialType[] = [
     job: "Chief Risk Officer, Global Bank",
     image: "https://randomuser.me/api/portraits/women/1.jpg",
     review:
-      "The integration of Tazama and MindsDB has revolutionized our fraud detection capabilities. The real-time monitoring and machine learning predictions have significantly reduced our false positives while catching more genuine fraud attempts. It's an indispensable tool for our risk management strategy.",
+      "The integration of Metrixx has revolutionized our fraud detection capabilities. The real-time monitoring and machine learning predictions have significantly reduced our false positives while catching more genuine fraud attempts. It's an indispensable tool for our risk management strategy.",
   },
   {
     name: "Michael Chen",
     job: "Head of Compliance, FinTech Startup",
     image: "https://randomuser.me/api/portraits/men/2.jpg",
     review:
-      "As a growing fintech, we needed a robust yet scalable solution for transaction monitoring. The combination of Tazama's real-time capabilities and MindsDB's machine learning models fit the bill perfectly. Our AML efforts have become much more effective.",
+      "As a growing fintech, we needed a robust yet scalable solution for transaction monitoring. The combination of Metrixx's real-time capabilities and machine learning models fit the bill perfectly. Our AML efforts have become much more effective.",
   },
   {
     name: "Emily Rodriguez",
     job: "Senior Fraud Analyst, Payment Processor",
     image: "https://randomuser.me/api/portraits/women/3.jpg",
     review:
-      "The depth of Tazama's typology library combined with MindsDB's predictive analytics is impressive. With over 280 fraud and money laundering scenarios at our fingertips, we've been able to stay ahead of emerging threats.",
+      "The depth of Metrixx's typology library combined with predictive analytics is impressive. With over 280 fraud and money laundering scenarios at our fingertips, we've been able to stay ahead of emerging threats.",
   },
   {
     name: "David Okonkwo",
     job: "IT Director, African Mobile Money Operator",
     image: "https://randomuser.me/api/portraits/men/4.jpg",
     review:
-      "Implementing Tazama and MindsDB has been a game-changer for our mobile money platform. The real-time API integration was smooth, and the system's ability to handle our high transaction volumes is remarkable. It's greatly enhanced our fraud prevention capabilities.",
+      "Implementing Metrixx has been a game-changer for our mobile money platform. The real-time API integration was smooth, and the system's ability to handle our high transaction volumes is remarkable. It's greatly enhanced our fraud prevention capabilities.",
   },
   {
     name: "Lisa Tanaka",
     job: "AML Compliance Manager, Insurance Company",
     image: "https://randomuser.me/api/portraits/women/5.jpg",
     review:
-      "While Tazama is often associated with banking, its integration with MindsDB has been invaluable for our insurance operations. The flexibility to create custom rules and predictive models has allowed us to adapt the system to our specific fraud and money laundering risks.",
+      "While Metrixx is often associated with banking, its integration has been invaluable for our insurance operations. The flexibility to create custom rules and predictive models has allowed us to adapt the system to our specific fraud and money laundering risks.",
   },
   {
     name: "Robert Müller",
     job: "CTO, European Payment Switch",
     image: "https://randomuser.me/api/portraits/men/6.jpg",
     review:
-      "As a national payment switch, we deal with an enormous volume of transactions. The combined scalability and performance of Tazama and MindsDB have been exceptional. The alert management system has streamlined our investigation process, making our team much more efficient.",
+      "As a national payment switch, we deal with an enormous volume of transactions. The combined scalability and performance of Metrixx have been exceptional. The alert management system has streamlined our investigation process, making our team much more efficient.",
   }
 ];
+
